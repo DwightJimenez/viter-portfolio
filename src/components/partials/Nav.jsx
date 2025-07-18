@@ -8,18 +8,34 @@ const Nav = () => {
           <div className='flex justify-between py-4'>
             <div>Logo</div>
             <div>
-              <ul className="flex gap-5">
+              <ul className='flex gap-5'>
                 <li>
-                  <a href='#about'>#about</a>
+                  <a href='#about'>
+                    {" "}
+                    <span className='text-purple-700 font-semibold'>#</span>
+                    about
+                  </a>
                 </li>
                 <li>
-                  <a href='#skills'>#skills</a>
+                  <a href='#skills'>
+                    {" "}
+                    <span className='text-purple-700 font-semibold'>#</span>
+                    skills
+                  </a>
                 </li>
                 <li>
-                  <a href='#project'>#project</a>
+                  <a href='#project'>
+                    {" "}
+                    <span className='text-purple-700 font-semibold'>#</span>
+                    project
+                  </a>
                 </li>
                 <li>
-                  <a href='#contact'>#contact</a>
+                  <a href='#contact'>
+                    {" "}
+                    <span className='text-purple-700 font-semibold'>#</span>
+                    contact
+                  </a>
                 </li>
               </ul>
             </div>

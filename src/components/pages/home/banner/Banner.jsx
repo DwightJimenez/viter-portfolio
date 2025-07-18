@@ -13,7 +13,7 @@ const Banner = () => {
         <div className='container'>
           <div className='grid grid-cols-2 items-center'>
             <div className='flex flex-col gap-5'>
-              <div className='text-white text-6xl font-semibold'>
+              <div className='text-white text-5xl font-semibold font-orbitron'>
                 <Typewriter
                   options={{
                     strings: ["Jude Dwight Oscar Jimenez", "Nx", "Nig", "Nice"],
@@ -23,10 +23,12 @@ const Banner = () => {
                   }}
                 />
               </div>
-              <h2 className='text-white/80'>
-                &#123; I build digital experiences &#125;
+              <h2 className='text-white/90 '>
+                {" "}
+                <span className='text-purple-400'>&#123; </span>I build digital
+                experiences<span className='text-purple-400'> &#125;</span>
               </h2>
-              <h3 className='text-white/50'>
+              <h3 className='text-white/50 text-primary'>
                 Passionate about creating elegant solutions to complex problems.
                 I specialize in JavaScript ecosystems and cloud-native
                 applications.
