@@ -20,6 +20,9 @@
   button {
     @apply px-4 py-2;
   }
+  html {
+    @apply scroll-smooth;
+  }
   .ddd::before {
     @apply content-["className=\""attr(class)"\""] absolute text-sm space-x-2 -top-0 text-purple-400;
   }
@@ -29,13 +32,13 @@
   .tag--h4::after {
     @apply absolute content-['</h4>'] -right-12 text-sm bottom-1  font-normal text-purple-700;
   }
-  .tag--p::before{
+  .tag--p::before {
     @apply absolute content-['<p>'] -left-10 text-sm top-1 bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] text-purple-700;
   }
-  .tag--p::after{
+  .tag--p::after {
     @apply absolute content-['</p>'] right-16 text-sm bottom-0 text-purple-700;
   }
-  .title::after{
+  .title::after {
     @apply w-full h-[1px] bg-secondary text-purple-700;
   }
 }

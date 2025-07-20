@@ -3,7 +3,7 @@ import React from "react";
 const Nav = () => {
   return (
     <>
-      <header>
+      <header className=' bg-white fixed w-full z-50'>
         <div className='container'>
           <div className='flex justify-between py-4'>
             <div>Logo</div>

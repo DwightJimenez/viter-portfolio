@@ -22,7 +22,7 @@ const Home = () => {
         <Skill />
         <Project />
         <Contact />
-        <div className='bg-black rounded-full size-56 fixed -bottom-28 right-0 text-white flex justify-center itece'>
+        <div className='bg-black rounded-full size-56 fixed -bottom-28 right-0 ease-linear duration-1000'>
           <img
             src='/images/day-night.png'
             alt=''
