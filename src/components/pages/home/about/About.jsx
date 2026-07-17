@@ -24,7 +24,7 @@ const About = () => {
                     <img
                       src="/images/about me.webp"
                       alt="about me"
-                      className="w-[50vh] max-w-sm"
+                      className="hidden md:block h-[60vh] max-w-sm"
                     />
                   </div>
                   <div className="flex flex-col gap-5 outline outline-1 outline-secondary p-4 my-auto relative text-white">

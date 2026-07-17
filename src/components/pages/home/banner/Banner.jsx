@@ -57,9 +57,9 @@ const Banner = () => {
             {/* Right Image Column */}
             <div className="w-full flex justify-center">
               <div className="relative">
-                <div className="w-60 h-60 bg-secondary border border-accent absolute top-1/2 left-1/2 shadow-[12px_12px_0px_0px_rgba(138,178,166,1)]"></div>
-                <div className="w-96 h-96 bg-accent border border-accent rounded-full flex justify-center items-center overflow-hidden relative z-10">
-                  <div className="w-60 h-60 bg-secondary border border-secondary absolute top-1/2 left-1/2"></div>
+                <div className="hidden md:block w-60 h-60 bg-secondary border border-accent absolute top-1/2 left-1/2 shadow-[12px_12px_0px_0px_rgba(138,178,166,1)]"></div>
+                <div className="hidden md:block md:w-96 md:h-96 bg-accent border border-accent rounded-full justify-center items-center overflow-hidden relative z-10">
+                  <div className="hidden md:block w-60 h-60 bg-secondary border border-secondary absolute top-1/2 left-1/2"></div>
                   <MouseParallaxContainer
                     globalFactorX={0.1}
                     globalFactorY={0.1}

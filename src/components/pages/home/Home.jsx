@@ -15,7 +15,6 @@ const Home = () => {
   return (
     <>
       <div className='relative'>
-        {" "}
         <Nav />
         <Banner />
         <About />
