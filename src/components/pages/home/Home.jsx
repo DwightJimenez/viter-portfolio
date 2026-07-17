@@ -10,7 +10,6 @@ import Contact from "./contact/Contact";
 const Home = () => {
   const scrollPercentage = useScrollPercentage();
   const degree = (Math.trunc(scrollPercentage) / 100) * 720;
-  const [rotate, setRotate] = React.useState(10);
 
   return (
     <>

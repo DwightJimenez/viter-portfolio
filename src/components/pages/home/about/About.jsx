@@ -14,7 +14,7 @@ const About = () => {
 
             <div className="relative z-10 flex h-full flex-col items-center justify-center px-4">
               <div className="container">
-                <h3 className="title mb-16 text-white">
+                <h3 className="title mb-16 text-4xl text-white">
                   <span className="text-purple-700 font-semibold">#</span>about
                   Me
                 </h3>

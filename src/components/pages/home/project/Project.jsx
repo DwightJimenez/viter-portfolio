@@ -22,11 +22,12 @@ const Project = () => {
       title: "Org Automation System",
       tech: ["React", "Express.js", "Sequelize"],
       description:
-        "Developed core interaction scripts via raycasting, dialogue delivery UI, and quest-gating systems. Collaborated within a 10-person cross-functional team, managing workflows alongside 2D/3D artists, writers, and other developers.",
+        "Architected a full-stack Workflow Automation System for the ACScis Organization at Bicol University Polangui. Developed as a Software Engineering academic project, this platform streamlines administrative operations by implementing robust role-based access controls, comprehensive audit logging, and automated organizational workflows.",
       liveLink: "https://se-2-khaki.vercel.app",
       repoLink: "https://github.com/DwightJimenez/SE2.git",
     },
   ];
+
   return (
     <>
       <div id="project" className="relative h-screen">
@@ -38,7 +39,7 @@ const Project = () => {
 
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-4">
           <div className="container">
-            <h3 className="title mb-16 text-white">
+            <h3 className="title mb-16 text-4xl text-white">
               <span className="text-purple-700 font-semibold">#</span>project
             </h3>
 
@@ -67,26 +68,38 @@ const Project = () => {
                     {project.description}
                   </p>
 
-                  <div className="flex gap-4 mt-auto">
-                    {project.liveLink && (
+                  {/* Wrapped buttons and notice in a new flex column */}
+                  <div className="mt-auto flex flex-col gap-2">
+                    <div className="flex gap-4">
+                      {project.liveLink && (
+                        <a
+                          href={project.liveLink}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="flex-1 text-center py-2 bg-purple-700 hover:bg-purple-800 text-white transition-colors text-sm font-bold"
+                        >
+                          Live Demo
+                        </a>
+                      )}
+
                       <a
-                        href={project.liveLink}
+                        href={project.repoLink}
                         target="_blank"
                         rel="noreferrer"
-                        className="flex-1 text-center py-2 bg-purple-700 hover:bg-purple-800 text-white transition-colors text-sm font-bold"
+                        className={`${
+                          project.liveLink ? "flex-1" : "w-full"
+                        } text-center py-2 border border-purple-700 text-purple-400 hover:bg-purple-700/20 transition-colors text-sm font-bold`}
                       >
-                        Live Demo
+                        Source Code
                       </a>
+                    </div>
+                    
+                    {/* Notice added here */}
+                    {project.liveLink && project.liveLink !== "#" && (
+                      <span className="text-xs text-gray-500 text-center italic mt-1">
+                        * Demo credentials available in README
+                      </span>
                     )}
-
-                    <a
-                      href={project.repoLink}
-                      target="_blank"
-                      rel="noreferrer"
-                      className={`${project.liveLink ? "flex-1" : "w-full"} text-center py-2 border border-purple-700 text-purple-400 hover:bg-purple-700/20 transition-colors text-sm font-bold`}
-                    >
-                      Source Code
-                    </a>
                   </div>
                 </div>
               ))}
