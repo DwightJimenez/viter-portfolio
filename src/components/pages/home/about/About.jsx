@@ -19,12 +19,12 @@ const About = () => {
                   Me
                 </h3>
 
-                <div className="grid grid-cols-2">
+                <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 ">
                   <div className="flex justify-center">
                     <img
                       src="/images/about me.webp"
                       alt="about me"
-                      className="w-[50vh]"
+                      className="w-[50vh] max-w-sm"
                     />
                   </div>
                   <div className="flex flex-col gap-5 outline outline-1 outline-secondary p-4 my-auto relative text-white">
