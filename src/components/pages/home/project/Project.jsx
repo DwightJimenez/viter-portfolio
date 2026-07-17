@@ -4,7 +4,7 @@ const Project = () => {
   const projectList = [
     {
       title: "ReadTrack",
-      tech: ["React", "Express.js", "Python", "SVM"],
+      tech: ["React", "FastAPI", "Python", "SVM"],
       description:
         "An educational assessment tool that evaluates student reading and writing materials. Engineered the data pipeline and integrated a specialized Support Vector Machine (SVM) model to process text and output qualitative proficiency classifications (Independent, Instructional, or Frustration).",
       liveLink: "#",
@@ -19,12 +19,12 @@ const Project = () => {
       repoLink: "https://github.com/DwightJimenez/ALAB.git",
     },
     {
-      title: "Interactive World Systems",
-      tech: ["Unity", "C#", "Version Control"],
+      title: "Org Automation System",
+      tech: ["React", "Express.js", "Sequelize"],
       description:
         "Developed core interaction scripts via raycasting, dialogue delivery UI, and quest-gating systems. Collaborated within a 10-person cross-functional team, managing workflows alongside 2D/3D artists, writers, and other developers.",
-      liveLink: "#",
-      repoLink: "#",
+      liveLink: "https://se-2-khaki.vercel.app",
+      repoLink: "https://github.com/DwightJimenez/SE2.git",
     },
   ];
   return (

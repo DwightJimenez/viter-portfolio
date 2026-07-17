@@ -29,35 +29,36 @@ const About = () => {
                   </div>
                   <div className="flex flex-col gap-5 outline outline-1 outline-secondary p-4 relative text-white">
                     <div className="w-fit relative">
-                      <h4 className="font-bold  tag--h4 relative">
-                        Crafting Digital Excellence
+                      <h4 className="font-bold tag--h4 relative">
+                        Systems-Oriented Full-Stack Developer
                       </h4>
                     </div>
 
                     <div className="relative">
                       <p className="tag--p">
                         I am a Computer Science senior at Bicol University
-                        Polangui, specializing in full-stack web development and
-                        game engineering. My core technical stack revolves
-                        around React, Express.js, and Sequelize, which I use to
-                        architect scalable, data-driven applications. As a DOST
-                        Scholar, I approach software engineering with a strong
-                        emphasis on analytical problem-solving and writing
-                        optimized, maintainable code.
+                        Polangui. As a DOST Scholar, I approach software
+                        engineering with a strong emphasis on analytical
+                        problem-solving. My technical expertise centers on
+                        architecting scalable, data-driven web applications
+                        using React, Express.js, and Sequelize, focusing on
+                        writing optimized, maintainable code for complex
+                        systems.
                       </p>
                     </div>
 
                     <div className="relative">
                       <p className="tag--p">
-                        My recent work includes developing ReadTrack, an
-                        educational tool where I integrated a Support Vector
-                        Machine (SVM) model to output qualitative proficiency
-                        classifications. I also have experience collaborating in
-                        cross-functional teams to build interaction and dialogue
-                        systems in Unity. Outside of coding, I'm deeply
-                        interested in system hardware optimization for
-                        competitive gaming and exploring high-fidelity audio
-                        gear.
+                        My portfolio demonstrates diverse engineering experience:
+                        I served as a Software Engineer for SE2, developing its
+                        robust role-based access and audit logging systems.
+                        My senior thesis, ReadTrack, highlights my work in
+                        Machine Learning, where we implemented an SVM model to
+                        perform qualitative text proficiency classification.
+                        Additionally, I was commissioned to develop ALAB, a
+                        research-driven platform for STEM students that
+                        integrates Bayesian Knowledge Tracing (BKT) to manage
+                        laboratory safety assessments and inventory.
                       </p>
                     </div>
                   </div>

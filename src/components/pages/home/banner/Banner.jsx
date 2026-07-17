@@ -41,12 +41,16 @@ const Banner = () => {
               </h3>
 
               <div className="flex gap-5 mt-4">
-                <button className="btn--primary px-6 py-3 bg-accent hover:bg-purple-700 text-white rounded transition-colors">
-                  View My Work
-                </button>
-                <button className="btn--secondary px-6 py-3 border border-accent text-accent hover:bg-purple-600/10 rounded transition-colors">
-                  Contact Me
-                </button>
+                <a href="#project">
+                  <button className="btn--primary px-6 py-3 bg-accent hover:bg-purple-700 text-white rounded transition-colors">
+                    View My Work
+                  </button>
+                </a>
+                <a href="#contact">
+                  <button className="btn--secondary px-6 py-3 border border-accent text-accent hover:bg-purple-600/10 rounded transition-colors">
+                    Contact Me
+                  </button>
+                </a>
               </div>
             </div>
 
