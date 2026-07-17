@@ -27,7 +27,7 @@ const About = () => {
                       className="w-[50vh]"
                     />
                   </div>
-                  <div className="flex flex-col gap-5 outline outline-1 outline-secondary p-4 relative text-white">
+                  <div className="flex flex-col gap-5 outline outline-1 outline-secondary p-4 my-auto relative text-white">
                     <div className="w-fit relative">
                       <h4 className="font-bold tag--h4 relative">
                         Systems-Oriented Full-Stack Developer
