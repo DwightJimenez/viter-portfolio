@@ -72,26 +72,27 @@ const Project = () => {
                   <div className='mt-auto flex flex-col gap-2'>
                     <div className='flex gap-4'>
                       {project.liveLink && project.liveLink !== "#" && (
-                        <a
-                          href={project.liveLink}
-                          target='_blank'
-                          rel='noreferrer'
-                          className='flex-1 text-center py-2 bg-purple-700 hover:bg-purple-800 text-white transition-colors text-sm font-bold'
-                        >
-                          Live Demo
-                        </a>
+                        <>
+                          <a
+                            href={project.liveLink}
+                            target='_blank'
+                            rel='noreferrer'
+                            className='flex-1 text-center py-2 bg-purple-700 hover:bg-purple-800 text-white transition-colors text-sm font-bold'
+                          >
+                            Live Demo
+                          </a>
+                          <a
+                            href={project.repoLink}
+                            target='_blank'
+                            rel='noreferrer'
+                            className={`${
+                              project.liveLink ? "flex-1" : "w-full"
+                            } text-center py-2 border border-purple-700 text-purple-400 hover:bg-purple-700/20 transition-colors text-sm font-bold`}
+                          >
+                            Source Code
+                          </a>
+                        </>
                       )}
-
-                      <a
-                        href={project.repoLink}
-                        target='_blank'
-                        rel='noreferrer'
-                        className={`${
-                          project.liveLink ? "flex-1" : "w-full"
-                        } text-center py-2 border border-purple-700 text-purple-400 hover:bg-purple-700/20 transition-colors text-sm font-bold`}
-                      >
-                        Source Code
-                      </a>
                     </div>
 
                     {/* Notice added here */}
