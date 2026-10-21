@@ -3,13 +3,13 @@ import Banner from "./banner/Banner";
 import Nav from "../../partials/Nav";
 import About from "./about/About";
 import Skill from "./skill/Skill";
-import useScrollPercentage from "./useScrollPercentage";
+// import useScrollPercentage from "./useScrollPercentage";
 import Project from "./project/Project";
 import Contact from "./contact/Contact";
 
 const Home = () => {
-  const scrollPercentage = useScrollPercentage();
-  const degree = (Math.trunc(scrollPercentage) / 100) * 720;
+  // const scrollPercentage = useScrollPercentage();
+  // const degree = (Math.trunc(scrollPercentage) / 100) * 720;
 
   return (
     <>
@@ -20,13 +20,14 @@ const Home = () => {
         <Skill />
         <Project />
         <Contact />
-        <div className='bg-black rounded-full size-56 fixed -bottom-28 right-0 ease-linear duration-1000'>
+        {/* <div className='bg-black rounded-full size-56 fixed -bottom-28 right-0 ease-linear duration-1000'>
           <img
             src='/images/day-night.png'
             alt=''
             style={{ transform: `rotate(${degree}deg)` }}
           />
-        </div>
+        </div> */}
+        
       </div>
     </>
   );
