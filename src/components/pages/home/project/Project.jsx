@@ -38,6 +38,7 @@ const Project = () => {
         "Inertia.js",
         "Tailwind CSS",
         "Stancl/Tenancy",
+        "RAG",
       ],
       description:
         "Engineered an AI-ready, multi-tenant SaaS platform featuring isolated SQLite/MySQL databases and secure subdomain routing per workspace. Developed a centralized dashboard for organization management and customizable tenant portals equipped with granular Role-Based Access Control (RBAC) using Spatie. Architected the backend infrastructure to support an automated Retrieval-Augmented Generation (RAG) engine for proprietary document ingestion and AI querying.",
@@ -96,16 +97,16 @@ const Project = () => {
                         hasLive
                           ? "bg-emerald-400 animate-pulse"
                           : hasRepo
-                          ? "bg-purple-400"
-                          : "bg-amber-400/80"
+                            ? "bg-purple-400"
+                            : "bg-amber-400/80"
                       }`}
                     ></span>
                     <span className='text-slate-400 text-[11px]'>
                       {hasLive
                         ? "STATUS: PRODUCTION"
                         : hasRepo
-                        ? "STATUS: SOURCE_PUBLIC"
-                        : "STATUS: THESIS_BUILD"}
+                          ? "STATUS: SOURCE_PUBLIC"
+                          : "STATUS: THESIS_BUILD"}
                     </span>
                   </div>
                 </div>
